@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2? family= Merriweather+Sans:ital,wght@0,400;0,500;1,400;1,800 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= ADLaM+Display & family= Bricolage+Grotesque:opsz,wght@10..48,200 & family= Cedarville+Cursive & family= Comfortaa :wght@300;500 & family= Josefin+Sans:ital,wght@0,300;1,200;1,300;1,400 & family= Merriweather+Sans:ital,wght@0,400;0,500;1,400;1,800 & family= Poppins:ital,wght @0,100;0,300;0,600;1,300;1,600 & mostrar=intercambiar");
+@import url("https://fonts.googleapis.com/css2? family= ADLaM+Display & family= Bricolage+Grotesque:opsz,wght@10..48,200 & family= Cedarville+Cursive & family= Comfortaa :wght@300;500 & family= Josefin+Sans:ital,wght@0,300;1,200;1,300;1,400 & family= Merriweather+Sans:ital,wght@0,400;0,500;1,400;1,800 & family= Pacifico & family= Poppins :ital,wght@0,100;0,300;1,600 & display=intercambio");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.InicioClimp {
+  width: 150px;
+}
+.InicioClimp .logo {
+  width: 150px;
+}
+.InicioClimp .menu {
+  list-style-type: none;
+  background-color: rgb(29, 87, 95);
+  padding-block: 10px;
+  display: flex;
+  gap: 250px;
+  grid-gap: 250px;
+}
+.InicioClimp .menu__item {
+  display: inline-block;
+  margin-inline: 10px;
+  margin-top: 120px;
+}
+.InicioClimp .menu__item a {
+  background: azure;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 2px;
+}
+.InicioClimp .menu__item.active a {
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+}
+.InicioClimp main {
+  padding: 40px;
+}
+.InicioClimp .nav-item :hover {
+  background-color: azure;
+  border: 2px solid rgb(255, 115, 34);
+}
+
+.carruselinicio {
+  width: 100%;
+}
+
+.productos {
+  width: 200px;
+  background-color: rgb(186, 200, 201);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px;
+}
+.productos .cartita_imagen {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+.productos .cartita_boton {
+  width: 100%;
+  background-color: rgb(58, 102, 138);
+  border: 0;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 10px;
+}
+.productos .cartita_imagen,
+.productos .cartita_titulo,
+.productos .cartita_boton {
+  margin-bottom: 10px;
+  background-position: center;
+}
+.productos .caja1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(58, 102, 138);
+  margin: 20px 40px 60px 0;
+  padding: 20px 20px 20px 20px;
+  background-image: url("./imagenes/insumosmedicos.jpg");
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+.productos .caja1 .caja1 h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.formulario {
+  text-align: right;
+  display: flexbox;
+}
+.formulario .titulo {
+  text-decoration: underline;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(255, 115, 34);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+.formulario .titulo .img-fluid h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 40px;
+  margin-top: 60px;
+  color: rgb(15, 15, 15);
+}
+.formulario .accordion {
+  margin-left: 60px;
+  width: 500px;
+  margin-top: 60px;
+  background-position: center center;
+}
+.formulario .googlemaps {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.formulario .contacto {
+  display: flex;
+}/*# sourceMappingURL=estilo.css.map */
